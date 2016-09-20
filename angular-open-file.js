@@ -36,7 +36,7 @@ angular.module('angularOpenFile',[])
           if(window.navigator.msSaveOrOpenBlob){
             window.navigator.msSaveOrOpenBlob(file, fileName);  
           }else{
-            anchor.href =`data:application/pdf;base64,${arrayBufferToBase64(data)}`;
+            anchor.href =`data:application/pdf;base64,${_arrayBufferToBase64(data)}`;
             anchor.dispatchEvent(clickEvent);
           }
         }
