@@ -9,7 +9,7 @@
  */
 angular.module('angularOpenFile',[])
   .service('openFile', function ($q) {
-    let _arrayBufferToBase64 = buffer => {  
+    this._arrayBufferToBase64 = buffer => {  
         let binary = '';
         let bytes = new Uint8Array( buffer );
         let len = bytes.byteLength;
@@ -36,7 +36,7 @@ angular.module('angularOpenFile',[])
           if(window.navigator.msSaveOrOpenBlob){
             window.navigator.msSaveOrOpenBlob(file, fileName);  
           }else{
-            anchor.href =`data:application/pdf;base64,${_arrayBufferToBase64(data)}`;
+            anchor.href =`data:application/pdf;base64,${this._arrayBufferToBase64(data)}`;
             anchor.dispatchEvent(clickEvent);
           }
         }
