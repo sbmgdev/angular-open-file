@@ -1,0 +1,17 @@
+{
+  "name": "angular-open-file",
+  "description": "Angular service for open for download files(like pdfs) or open in new tab",
+  "main": "angular-open-file.js",
+  "authors": [
+    "Sebrae MG"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sebraemg/angular-open-file",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
