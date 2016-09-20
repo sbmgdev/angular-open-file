@@ -1,7 +1,7 @@
 {
   "name": "angular-open-file",
   "description": "Angular service for open for download files(like pdfs) or open in new tab",
-  "main": "./dist/angular-open-file.min.js",
+  "main": "./dist/angular-open-file.js",
   "authors": [
     "Sebrae MG"
   ],
