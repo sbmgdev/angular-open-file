@@ -1,0 +1,29 @@
+{
+  "name": "angular-open-file",
+  "version": "0.0.1",
+  "description": "",
+  "main": "angular-open-file.js",
+  "dependencies": {
+    "gulp-babel": "^6.1.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebraemg/angular-open-file.git"
+  },
+  "author": "Sebrae MG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebraemg/angular-open-file/issues"
+  },
+  "homepage": "https://github.com/sebraemg/angular-open-file#readme"
+}
